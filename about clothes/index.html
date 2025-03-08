@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Importer la police d'icônes Google-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--FontAwesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!-- CSS compilé et minifié -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>BOUTIQUE CHEZ SANDY</title>
+
+    <!--Style-->
+    <style>
+      header {
+        background-image: url(./img/main.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 1000px;
+      }
+      section {
+        padding-bottom: 4vw;
+        padding-top: 1vw;
+      }
+      .tabs .indicator {
+        background-color: #000 !important;
+      }
+      .tabs .tab a:hover,
+      .tabs .tab a:focus.active {
+        background-color: transparent;
+      }
+      @media screen and (max-width: 650px) {
+        header {
+          min-height: 500px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--header-->
+    <header>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="#" class="brand logo">SANDY'S-SHOP</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile"
+            ><i class="material-icons">menu</i></a
+          >
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">BOUTIQUE</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+
+          <ul class="sidenav grey darken-4 center" id="mobile">
+            <h5 class="white-text center">SANDY'S-SHOP</h5>
+            <li>
+              <a href="#" class="waves-effect waves-light white-text">HOME</a>
+            </li>
+            <li>
+              <a href="#" class="waves-effect waves-light white-text"
+                >COLLECTION</a
+              >
+            </li>
+            <li>
+              <a href="#" class="waves-effect waves-light white-text"
+                >BOUTIQUE</a
+              >
+            </li>
+            <li>
+              <a href="#" class="waves-effect waves-light white-text"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--img avec description-->
+    <section class="container-section">
+      <div class="row">
+        <div class="col s12 l6">
+          <img src="./img/leather.jpg" class="responsive-img materialboxed" />
+        </div>
+        <div class="col s12 l6">
+          <h2 class="black-text">CUIR</h2>
+          <p>Découvrez notre collection en cuir d'exception</p>
+          <p>
+            Chez SANDY'S-SHOP, nous célébrons l'élégance intemporelle du cuir.
+            Notre collection soigneusement sélectionnée comprend des articles
+            qui répondent à toutes vos envies : sacs à main luxueux, ceintures
+            robustes, portefeuilles sophistiqués et bien plus encore. Chaque
+            pièce est conçue avec un savoir-faire artisanal, garantissant à la
+            fois style et durabilité. Le cuir que nous proposons n’est pas
+            seulement un matériau : c’est une expérience. Que ce soit pour une
+            tenue professionnelle ou une sortie décontractée, ces accessoires
+            haut de gamme ajouteront une touche d’élégance à votre garde-robe.
+            Venez nous rendre visite à Lomé et laissez-vous séduire par la
+            qualité et la noblesse de nos produits en cuir.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l6 push-l6">
+          <img src="./img/jeans.jpg" class="responsive-img materialboxed" />
+        </div>
+        <div class="col s12 l6 pull-l6">
+          <h2 class="black-text">LEVI'S JEAN</h2>
+          <p>Les jeans Levi's : une icône de style et de confort</p>
+          <p>
+            Depuis plus de 150 ans, Levi's incarne la mode et l'authenticité.
+            Chez SANDY'S-SHOP, nous avons sélectionné les modèles les plus
+            populaires de cette marque emblématique pour répondre à vos attentes
+            en matière de style et de confort. Nos jeans Levi's s'adaptent à
+            toutes les morphologies grâce à une coupe parfaitement étudiée.
+            Skinny, slim, bootcut ou droit, nous avons tout ce qu’il vous faut
+            pour sublimer votre silhouette. Associez nos jeans Levi's à nos
+            t-shirts tendance ou à une veste en cuir pour un look intemporel et
+            sophistiqué. Passez en boutique et trouvez votre prochain jean
+            préféré, idéal pour le quotidien ou les occasions spéciales.Trouvez
+            votre style dans notre sélection exclusive de jeans Levi's,
+            disponibles à Lomé.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l6">
+          <img src="./img/watch.jpg" class="responsive-img materialboxed" />
+        </div>
+        <div class="col s12 l6">
+          <h2 class="black-text">MONTRES</h2>
+          <p>Une collection de montres à votre image</p>
+          <p>
+            Ajoutez une touche de sophistication à votre poignet avec notre
+            gamme de montres soigneusement sélectionnées. Chez SANDY'S-SHOP,
+            nous proposons des montres qui allient esthétique, innovation et
+            qualité. Que vous recherchiez une montre classique en acier, un
+            modèle en cuir élégant ou une montre sportive moderne, vous
+            trouverez celle qui correspond parfaitement à votre style. Nos
+            montres sont bien plus que des accessoires : elles sont le reflet de
+            votre personnalité. Elles incarnent votre goût pour le détail et
+            votre souci de toujours être à la pointe de la mode. Offrez-vous une
+            montre ou faites-en un cadeau inoubliable pour vos proches. Venez
+            explorer notre collection dans notre boutique à Lomé !
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--parallax 1-->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./img/p1.jpg" class="responsive-img" />
+      </div>
+    </div>
+    <!--tabs-->
+    <section class="container section">
+      <div class="row">
+        <div class="col sl2 l5">
+          <h4 class="black-text">Info nouvelle trend...</h4>
+          <p>Suivez les dernières tendances mode à Lomé</p>
+          <p>
+            La mode est un langage, et chez SANDY'S-SHOP, nous vous aidons à
+            parler avec style. Notre boutique est le rendez-vous incontournable
+            des amateurs de mode à Lomé ! Nous nous inspirons des grandes
+            tendances internationales pour proposer des collections variées,
+            adaptées aux goûts et aux besoins de notre clientèle locale.
+            Découvrez des vêtements au design audacieux, des accessoires
+            originaux et des chaussures qui sauront compléter votre look à la
+            perfection.
+          </p>
+          <p>
+            Que vous cherchiez des pièces pour une occasion spéciale, des tenues
+            décontractées pour le week-end ou un style professionnel chic, nous
+            avons tout ce qu'il vous faut. Venez découvrir nos nouveautés et
+            laissez-vous guider par notre équipe passionnée et experte.
+          </p>
+        </div>
+        <div class="col sl2 l6 offset-l1">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#dg" class="black-text">Détails de design</a>
+            </li>
+            <li class="tab col s6">
+              <a href="#fs" class="black-text">Détails de mode</a>
+            </li>
+          </ul>
+          <div class="col sl2" id="dg">
+            <p class="flow-text black-text">NOUVEAU DESIGN</p>
+            <p>Innovation et créativité au cœur de notre design</p>
+            <p>
+              Chez SANDY'S-SHOP, chaque saison est une opportunité de réinventer
+              la mode. Nos collections mettent en avant des designs modernes,
+              innovants et adaptés à un public exigeant. Nous sélectionnons avec
+              soin des matières de qualité pour créer des pièces qui vous
+              démarqueront, que ce soit pour des occasions spéciales ou pour le
+              quotidien. Nos équipes collaborent avec des stylistes locaux et
+              internationaux pour garantir des coupes modernes, des finitions
+              parfaites et des designs qui reflètent les tendances actuelles.
+              Explorez nos collections et découvrez des vêtements qui vous
+              aideront à exprimer votre unicité avec élégance.
+            </p>
+          </div>
+          <div class="col sl2" id="fs">
+            <p class="flow-text black-text">NOUVELLE MODE</p>
+            <p>Les tendances incontournables de la saison</p>
+            <p>
+              La mode est un art vivant, et chez SANDY'S-SHOP, nous nous
+              engageons à vous offrir les dernières tendances en prêt-à-porter.
+              Découvrez des vêtements et accessoires conçus pour les passionnés
+              de mode, avec des styles qui allient audace et sophistication.
+              Cette saison, laissez-vous séduire par des imprimés captivants,
+              des coupes flatteuses et des détails qui font toute la différence.
+              Qu'il s'agisse de robes élégantes, de vestes en cuir stylées ou de
+              chemises décontractées, chaque pièce est conçue pour s'adapter à
+              votre quotidien et à vos moments les plus précieux. Faites de
+              votre garde-robe un véritable tableau de mode ! Passez en boutique
+              à Lomé pour découvrir notre collection complète.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--parallax 2-->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./img/p2.jpg" class="responsive-img" />
+      </div>
+    </div>
+    <!--contact-->
+    <section class="container section">
+      <div class="row">
+        <div class="col sl2 l5">
+          <h3 class="black-text">RESTER EN CONTACT</h3>
+          <p>
+            Chez SANDY'S-SHOP, votre satisfaction est notre priorité. Nous
+            sommes toujours ravis d'échanger avec nos clients passionnés de
+            mode. Que ce soit pour une question sur nos collections, une demande
+            de conseil stylistique ou une commande spéciale, notre équipe est à
+            votre écoute.
+          </p>
+          <p>
+            Vous souhaitez organiser un essayage privé ? Obtenir des
+            informations sur nos prochaines collections ? Ou simplement partager
+            vos impressions sur notre boutique ? Utilisez notre formulaire de
+            contact ou passez nous voir directement dans notre espace de vente à
+            Lomé.
+          </p>
+          <p>
+            Nous nous engageons à vous répondre sous 24 heures ouvrables. Pour
+            les demandes urgentes, n'hésitez pas à nous contacter par téléphone
+            au <mark>+228 70 09 74 54</mark>. Suivez-nous aussi sur nos réseaux
+            sociaux pour ne rien manquer de nos nouveautés et événements
+            exclusifs !
+          </p>
+        </div>
+        <div class="col sl2 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Email Ici</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea
+                name=""
+                id="message"
+                class="materialize-textarea"
+              ></textarea>
+              <label for="message">Messages ici</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">event</i>
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choisisez votre date</label>
+            </div>
+            <div class="input-field">
+              <p>Compétences requis...</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Design</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Modèles</span>
+                </label>
+              </p>
+              <div class="input-field center">
+                <button class="btn black white-text">ENVOYER</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Pied de page-->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col sl2 l6">
+            <h5>AU SUJET DE NOUS</h5>
+            <p>
+              Fondée en 2015 à Lomé, SANDY'S-SHOP est bien plus qu'une simple
+              boutique de mode. C'est un projet passionné porté par des amoureux
+              du style et des matières nobles. Notre mission ? Vous offrir une
+              expérience shopping unique où chaque pièce est soigneusement
+              sélectionnée pour son authenticité et sa qualité.
+            </p>
+            <p>
+              Rejoignez notre communauté de clients exigeants qui font confiance
+              à notre expertise depuis près de 10 ans. Votre style mérite d'être
+              chéri - c'est la promesse que nous renouvelons chaque jour à
+              travers nos collections raffinées.
+            </p>
+          </div>
+          <div class="col sl2 l4 offset-l2">
+            <h5>RESEAUX</h5>
+            <ul>
+              <li><a href="#" class="white-text">FACEBOOK</a></li>
+              <li><a href="#" class="white-text">X</a></li>
+              <li><a href="#" class="white-text">INSTAGRAM</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container center cyan-text">
+          <h6>&copy;SANDY'S-SHOP</h6>
+        </div>
+      </div>
+    </footer>
+    <!--jQuery compilé et minifié-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript compilé et minifié -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker();
+      });
+    </script>
+  </body>
+</html>

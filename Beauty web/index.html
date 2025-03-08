@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="utf-8"/>
+		<link rel="stylesheet"  href="jolie.css"/>
+		<title> LE PAS AVEC LE CSS </title>
+	<head>
+	<body>
+		<ul>
+			<li><a class="active" href="#acceuill">Aceuill</a></li>
+			<li><a href="#information">Information</a></li>
+			<li><a href="#Contact">Contact</a></li>
+			<li><a href="#galerie">Galerie</a></li>
+			<li style="float: right;"><a href="#apropos">À propos</a></li>
+		</ul>
+		<h1>MON SUPER SITE</h1>
+		<p class="decouverte"> Bonjour et bienvenu sur mon site</p>
+		<p> Vous allez découvrir mes merveiles du css </p>
+		<p>Petit à petit je deviendrai un <span class="web">webmaster</span></p>
+		<p class="taille1">Je suis un webmaster</p>
+		<p class="taille2">Je suis un webmaster</p>
+		<p class="taille3">Je suis un webmaster</p>
+		<p class="taille4">Je suis un webmaster</p>
+		<p class="taille5">Je suis un webmaster</p>
+		<p class="taille6">Je suis un webmaster</p>
+		<p class="taille7">Je suis un webmaster</p>
+		<h1 class="joyce1">TOGO</h1>
+		<h1 class="joyce2">BENIN</h1>
+		<h1 class="joyce3">TCHAD</h1>
+		<h1 class="joyce4">NIGER</h1>
+		<h1 class="joyce5">CONGO</h1>
+		<h1 class="joyce6">SENEGAL</h1>
+		<h1 class="joyce7">MALI</h1>
+		<h1 class="joyce8">GHANA</h1>
+		<P class="akpaki2">Nous disposons dans nos maisons, dans nos universités et même dans nos écoles de Bill Gates, Steve Jobs, Mark Zuckerberg… qui ne demandent qu’à être découverts et encouragés. A travers « Apps Togo », mon département souhaite libérer le potentiel des jeunes innovateurs et entrepreneurs dans le secteur des TIC, et faire figurer le Togo sur la carte des grands pôles technologiques du continent.</p>
+		<table>
+		<caption>passagers de l'AIR-FRANCE vol 410</caption>
+			<tr>
+				<th>nom</th>
+				<th>age</th>
+				<th>ville</th>
+			</tr>
+			<tr>
+				<td>Bernard</td>
+				<td>18</td>
+				<td>Tabligbo</td>
+			</tr>
+			<tr>
+				<td>Maxim</td>
+				<td>20</td>
+				<td>N'DJAMENA</td>
+			</tr>
+			<tr>
+				<td>victorien</td>
+				<td>25</td>
+				<td>lome</td>
+				
+		</table>
+		<h2>Tableau de nos patenaire</h2>
+		<table> 
+			</tr>    
+				<th>Company</th>
+				<th>Contact</th>
+				<th>Country</th>
+			 </tr>
+				<tr>
+					<td>Alfreds Futterkiste</td>
+					<td>Maria Anders</td>
+					<td>Germany</td>
+			  </tr>
+			  <tr>
+				<td>Centro comercial Moctezuma</td>
+				<td>Francisco Chang</td>
+				<td>Mexico</td>
+			  </tr>
+		</table>
+			<h1>la fusion des cellules</h1>
+		<table>
+			<tr>
+				<th> titre du film</th>
+				<th>pour les enfant?</th>
+				<th>pour les adolescents</th>
+			</tr>
+			<tr>
+				<td>Massacre à la tronçonneuse</td>
+				<td>Non,trop violant</td>
+				<td>Oui</td>
+			</tr>
+			<tr>
+				<td>Les bisounours font du sky</td>
+				<td>Oui,adapter</td>
+				<td>pas assez violant...</td>
+			</tr>
+			<tr>
+				<td>lucky luke,seul contre tous</td>
+				<td colspan="2">Pour toute la famille!</td>
+			</tr>
+		</table>
+			<h3>fusionde deux ligne dans un Tableau</h3>
+		<table>
+			<tr>
+				<th>titre du film</th>
+				<td>Massacre à la tronçonneuse</td>
+				<td>Les bisounours font du sky</td>
+				<td>lucky luke,seul contre tous</td>
+			</tr>
+			<tr>
+				<th>Pour les enfants</th>
+				<td>Non,trop violant</td>
+				<td>Oui,adapter</td>
+				<td rowspan="2">pour toute la famille</td>
+			</tr>
+			<tr>
+			<th>pour les adolescents</th>
+			<td>oui</td>
+			<td>pas assez violant</td>
+			</tr>
+		</table>
+    <h1>Les formulaires</h1>
+    <form method="post" action="traitement.php">
+		<fieldset>
+			<legend>Authentification</legend>
+      <p>
+        <label for="pseudo">Votre pseudo:</label>
+        <input type="text" name="pseudo" id="pseudo" placeholder="exemple:IronSide" size="30" maxlength="8"/>
+	  <br/>
+	  <label for="pass">votre mot de passe</label>
+	  <input type="pasword" name="pass" id="pass">
+	</p>
+	<p>Cochez les aliments que vous aimez manger: <br/>
+	<input type="checkbox" name="Frites" id="Frites"/>
+	<label for="Frites">Frites</label><br/>
+	<input type="checkbox" name="Hamburger" id="Hamburger"/>
+	<label for="Hamburger">Hamburger</label><br/>
+	<input type="checkbox" name="Pizza" id="Pizza"/>
+	<label for="Pizza">Pizza</label><br/>
+	<input type="checkbox" name="Ayimolou" id="Ayimolou"/>
+	<label for="Ayimolou">Ayimolou</label><br/>
+	</p>
+	<p>Veuiller indiquer la tranche d'âge dans laquelle vous vous situez: <br/>
+		<input type="radio" name="âge" value="moins15" id="moins15"/>
+	<label for="moins15">Moins de 15</label><br/>
+	<input type="radio" name="âge" value="medium15-25" id="medium15-25"/>
+	<label for="medium15-25">15-25 ans</label><br/>
+	<input type="radio" name="âge" value="medium15-25" id="medium15-25"/>
+	<label for="medium15-25">25-45ans</label><br/>
+	<input type="radio" name="âge" value="plus45" id="plus45"/>
+	<label for="plus45">Plus vieux que ça ?</label><br/>
+	</p>
+	</fieldset>
+	<fieldset>
+		<legend>Origine</legend>
+		<p>
+			<label for="pays">Dans quel pays habitez vous</label><br/>
+			<select name="pays" id="pays">
+				<option value="France">France</option>
+				<option value="Allemagne">Allemagne</option>
+				<option value="Chine">Chine</option>
+				<option value="USA">USA</option>
+				<option value="Russie">Russie</option>
+				<option value="Togo">Togo</option>
+				<option value="Italie">Italie</option>
+				<option value="Angletere"></option>
+			</select>
+		</p>
+		<p>Quel est votre niveau de compréhension du français <br/>
+			Faible  <input type="range"/> Élevé
+		</p>
+	</fieldset>
+    </form>
+	<h1>Exercice sur les formulaires</h1>
+	<form action="traitement.php">
+	<fieldset>
+		<legend>Vos coordonnées</legend>
+		<p>
+			<label for="Nom">Nom:</label>
+        <input type="text" name="nom" id="nom" size="30" maxlength="8"/>
+	  <br/>
+	  <label for="prenom">Prénoms:</label>
+        <input type="text" name="prenoms" id="prenoms" size="30" maxlength="8"/>
+	  <br/>
+	  <label for="adresse">Adresse:</label>
+        <input type="adresse" name="adresse" id="adresse" placeholder="exemple:Lomé-Togo" size="30" maxlength="8"/>
+	  <br/>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Votre école</legend>
+		<p>
+			<input type="checkbox" name="ESAG-NDE" id="ESAG-NDE"/>
+			<label for="ESAG-NDE">ESAG-NDE</label><br/>
+			<input type="checkbox" name="IAI" id="IAI"/>
+			<label for="IAI">IAI</label><br/>
+			<input type="checkbox" name="EPL" id="EPL"/>
+			<label for="EPL">EPL</label><br/>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Votre souhait</legend>
+		<p>
+			<input type="radio" name="celèbre" value="celèbre" id="celèbre"/>
+			<label for="celèbre">être celèbre?</label><br/>
+			<input type="radio" name="riche" value="riche" id="riche"/>
+			<label for="riche">être riche?</label><br/>
+			<input type="radio" name="intelligent" value="intelligent" id="intelligent"/>
+			<label for="intelligent">être intelligent?</label><br/>
+			<input type="radio" name="diplômé" value="diplômé" id="diplômé"/>
+			<label for="diplômé">être diplômé d'université ?</label><br/>
+		</p>
+		<p>Quel est votre niveau de vie actuelle ? <br/>
+			Nul  <input type="range"/> Élevé
+		</p>
+		<h3>LISTE DEROULANTE AVEC UN GROUPE</h3>
+	<form method="post" action="traitement.php">
+		<fieldset>
+			<legend>Formulaire d'identité</legend>
+			<label for="nom">Quel est votre nom</label>
+			<input type="text" name="nom" id="nom"><br/>
+			<label for="prénom">Quel est votre prénom</label>
+			<input type="text" name="prénom" id="prénom"><br/>
+			<label for="email">Quel est votre email</label>
+			<input type="text" name="email" id="email"><br/>
+		<p>
+			<label for="pays">Dans quel pays habitez vous ?</label><br/>
+			<select name="pays" id="pays">
+				<optgroup label="Afrique">
+					<option value="Togo">Togo</option>
+					<option value="Bénin">Bénin</option>
+					<option value="Tchad">Tchad</option>
+					<option value="Niger">Niger</option>
+				</optgroup>
+				<optgroup label="Europe">
+					<option value="France">France</option>
+					<option value="Belgique">Belgique</option>
+					<option value="Suisse">Suisse</option>
+					<option value="Hollande">Hollande</option>
+				</optgroup>
+				<optgroup label="Asie">
+					<option value="Liban">Liban</option>
+					<option value="Chine">Chine</option>
+					<option value="Japon">Japon</option>
+					<option value="Russie">Russie</option>
+					<option value="Inde">Inde</option>
+				</optgroup>
+			</select>
+		</p>
+		<input type="submit" value="Envoyer">
+		</fieldset>	
+	</form>
+	</fieldset>	
+	</form>
+		<p>ESAG-NDE en vidéo</p>
+		<video src="./esag.mp4" controls width="500">La vidéo de ESAG-NDE</video>
+		<p>Ecoutez la messe avec le père Yohanès</p>
+		<audio src="./messe.mp3" controls>Ecoutez la messe</audio>
+		<p>Dancez avec les toofans</p>
+		<video src="./toofan.mp4" controls width="500">La vidéo des toofans</video>
+		<p>Séance d'infographie avec la filière informatique à ESAG-NDE</p>
+		<video src="./da2.mp4" controls width="500">DA-2</video>
+	</body>
+</html>
